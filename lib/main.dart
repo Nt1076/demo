@@ -1,3 +1,4 @@
+import 'package:demo/second.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,13 +15,13 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Nishant Intern Demo',
      
-      home: HomePage(),
+      home: SecondTask(),
     );
   }
 }
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class FirstTask extends StatelessWidget {
+  const FirstTask({super.key});
 
   @override
   Widget build(BuildContext context) {
